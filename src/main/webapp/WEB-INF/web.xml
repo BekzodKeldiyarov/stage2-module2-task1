@@ -9,17 +9,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AddUserServlet</servlet-name>
-        <url-pattern>/add-user</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>addJsp</servlet-name>
-        <jsp-file>/jsp/add.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>addJsp</servlet-name>
         <url-pattern>/add</url-pattern>
     </servlet-mapping>
-
     <servlet>
         <servlet-name>GetUsersServlet</servlet-name>
         <servlet-class>com.example.servlet.GetUsersServlet</servlet-class>
